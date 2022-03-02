@@ -121,6 +121,8 @@ const App = () => {
               }
               style={styles.picker}>
               <Picker.Item label="LTL" value="LTL" />
+              <Picker.Item label="second service mode" value="2" />
+              <Picker.Item label="third service mode" value="3" />
             </Picker>
           </View>
           <View style={styles.pickerWrapper}>
@@ -134,6 +136,8 @@ const App = () => {
               }
               style={styles.picker}>
               <Picker.Item label="Select one..." value="" />
+              <Picker.Item label="first transit service" value="1" />
+              <Picker.Item label="second transit service" value="2" />
             </Picker>
           </View>
         </View>
